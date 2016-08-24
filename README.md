@@ -52,5 +52,5 @@ You can also internationalize the label the same way you would with any other fi
 MIT
 
 ## Changelog
-1.0.0 - Initial release
-1.1.0 - Added copy to clipboard with [clipboard.js](https://clipboardjs.com/)
+- 1.0.0 - Initial release
+- 1.1.0 - Added copy to clipboard with [clipboard.js](https://clipboardjs.com/)
