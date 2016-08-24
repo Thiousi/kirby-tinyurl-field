@@ -46,7 +46,7 @@ The field supports the standard options:
 You can also internationalize the label the same way you would with any other fields.
 
 ## To-do
-- [ X] Copy to clipboard on click
+- [X] Copy to clipboard on click
 
 ## License
 MIT
