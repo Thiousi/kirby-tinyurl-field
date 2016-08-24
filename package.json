@@ -3,6 +3,6 @@
 "description": " tiny field that displays the tinyURL of a page in the panel",
 "author": "Mathieu Etienne",
 "license": "MIT",
-"version": "1.0.0",
+"version": "1.1.0",
 "type": "kirby-field"
 }
