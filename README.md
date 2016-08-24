@@ -3,7 +3,7 @@
 
 A tiny field that displays the tinyURL of a page in the panel for [Kirby](http://getkirby.com)
 
-![Kirby Tiny URL](https://github.com/Thiousi/kirby-tinyurl-field/blob/master/screenshot.jpg)
+![Kirby Tiny URL](https://github.com/Thiousi/kirby-tinyurl-field/blob/master/screenshot.png)
 
 ## Installation
 
