@@ -1,13 +1,9 @@
 # Kirby TinyURL field
-![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
+![Version](https://img.shields.io/badge/version-1.0.0-green.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg) ![Kirby Version](https://img.shields.io/badge/Kirby-2.3%2B-red.svg)
 
 A tiny field that displays the tinyURL of a page in the panel for [Kirby](http://getkirby.com)
 
 ![Kirby Tiny URL](https://github.com/Thiousi/kirby-tinyurl-field/blob/master/screenshot.jpg)
-
-## Requirements
-
-Kirby 2.3
 
 ## Installation
 
