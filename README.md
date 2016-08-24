@@ -1,5 +1,5 @@
 # Kirby TinyURL field
-![Version](https://img.shields.io/badge/version-1.0.0-green.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg) ![Kirby Version](https://img.shields.io/badge/Kirby-2.3%2B-red.svg)
+![Version](https://img.shields.io/badge/version-1.1.0-green.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg) ![Kirby Version](https://img.shields.io/badge/kirby-2.3%2B-red.svg)
 
 A tiny field that displays the tinyURL of a page in the panel for [Kirby](http://getkirby.com)
 
@@ -32,6 +32,8 @@ In  your blueprint:
   tinyurl:
     label: Tiny URL
     type: tinyurl
+    help: Click on field to copy to clipboard
+    width: 1/2
 ```
 
 The field supports the standard options:
@@ -41,10 +43,14 @@ The field supports the standard options:
 - Width
 ```
 
-You can also internationalize the label like with any standard field.
+You can also internationalize the label the same way you would with any other fields.
 
 ## To-do
-- [ ] Copy to clipboard on click
+- [ X] Copy to clipboard on click
 
 ## License
 MIT
+
+## Changelog
+1.0.0 - Initial release
+1.1.0 - Added copy to clipboard with [clipboard.js](https://clipboardjs.com/)
