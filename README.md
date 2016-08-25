@@ -1,5 +1,5 @@
 # Kirby TinyURL field
-![Version](https://img.shields.io/badge/version-1.1.0-green.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg) ![Kirby Version](https://img.shields.io/badge/kirby-2.3%2B-red.svg)
+![Version](https://img.shields.io/badge/version-1.1.1-green.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg) ![Kirby Version](https://img.shields.io/badge/kirby-2.3%2B-red.svg)
 
 A tiny field that displays the tinyURL of a page in the panel for [Kirby](http://getkirby.com)
 
@@ -52,5 +52,13 @@ You can also internationalize the label the same way you would with any other fi
 MIT
 
 ## Changelog
-- 1.0.0 - Initial release
-- 1.1.0 - Added copy to clipboard with [clipboard.js](https://clipboardjs.com/)
+### 1.0.0
+- Initial release
+
+### 1.1.0
+- Added copy to clipboard with [clipboard.js](https://clipboardjs.com/)
+
+### 1.1.1
+- Changed icon to clipboard
+- Better console logging
+- Cleaned up code
