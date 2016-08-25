@@ -6,20 +6,20 @@ class TinyurlField extends TextField{
 			'tinyurl.js'
 		),
 		'css' => array(
-			'style.css'
+			'style.css',
 		)
 	 );
 	public function __construct() {
 		$this->type  = 'tinyurl';
-    $this->icon  = 'chain';
-    $this->readonly = true;
+    $this->icon  = 'clipboard';
+		$this->readonly = true;
 	}
 	public function input() {
 		$tinyurl = parent::input();
 		$tinyurl->data('field', $this->name());
 		$tinyurl->attr('value', $this->page->tinyurl());
-		$tinyurl->addClass('input-with-copybtn');
 		$tinyurl->attr('data-clipboard-text', $this->page->tinyurl());
+		$tinyurl->addClass('input-with-copybtn');
 		return $tinyurl;
 	}
 }
