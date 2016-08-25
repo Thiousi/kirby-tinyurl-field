@@ -46,11 +46,11 @@ The field supports the standard options:
 You can also internationalize the label the same way you would with any other fields.
 
 ## To-do
-- [ X] Copy to clipboard on click
+- [X] Copy to clipboard on click
 
 ## License
 MIT
 
 ## Changelog
-1.0.0 - Initial release
-1.1.0 - Added copy to clipboard with [clipboard.js](https://clipboardjs.com/)
+- 1.0.0 - Initial release
+- 1.1.0 - Added copy to clipboard with [clipboard.js](https://clipboardjs.com/)
